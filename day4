@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input exercise</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="name">名字</label>
+        <input type="text" name="name" id="name" min="2" max="50" >
+        <br/>
+        <input type="radio" name="gender" id="meal" value="meal" >
+        <label for="meal">男性</label>
+    
+        <input type="radio" name="gender" id="femeal" value="femeal" >
+        <label for="femeal">女性</label>
+    
+        <input type="radio" name="gender" id="other" value="other" >
+        <label for="other">其他</label>
+     <br/>   
+    <label for="gender">性别</label>
+        <select name="gender" id="gender" required>
+            <option></option>
+            <option value="male">男性</option>
+            <option value="female">女性</option>
+            <option value="other">其他</option>
+     </select>
+     
+    <br/> 
+        1<input type="range" name="range" id="range" max="100" min="1" step="1" >100
+        <br/>
+        <input type="checkbox" name="checkbox" id="checkbox">
+     <button type="submit">提交</button>
+    </form>
+    
+    
+</body>
+</html>
