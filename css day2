@@ -1,0 +1,26 @@
+2电脑是用二进制来储存数据 十进制是（0-9）所以二进制是（0-1）二进制数字=binary digit=bit
+每8个bit=1byte 举例：16MB=16×10⁶×8个bits
+
+
+Color styling in css
+Reserved color	被保留在电脑中的颜色有140种
+
+
+Rgb- red ,green,blue三种颜色 每个颜色最多有255个可设定的数值（0-255）
+例如如果想要纯红色 color: rgb(255,0,0)
+
+Rgba- (red,green,blue)a a=alpha=颜色的透明度    例如 如果想改变纯红色的透明度就要改变a的数值 color:rgb(255,0,0,a)  a可以是0-1
+
+
+Hex  hexadecimal 
+(hex在英文中是6的意思，如果在英文中看到hex就代表这字与6有关)
+(decimal是十进制的意思) 所以说hexadecimal就是16进制的意思。
+二进制：0，1
+十进制：0，1，2…9
+十六进制：0，1，2…9,a,b,c,d,e,f 
+例如16进制颜色在vs code中打出的方式是  color：#2d84e1;
+
+Hsl
+
+Css中如何写common   /*文字*/
+
