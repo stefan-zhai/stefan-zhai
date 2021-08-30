@@ -1,0 +1,18 @@
+1,Css      cascading style sheets 阶梯式样式表
+
+Css syntax 语法  
+h1{
+	color: green;
+}
+
+Css 放置位置
+Inline styling 在body中对单个的词条加以修饰
+Internal styling 在head中对某个种类的词条加以修饰
+External styling 在外部写一个新的css格式的文件然后与html文件建立连接  如何建立链接
+<link rel=”stylesheet” href=”./文件名.css”>
+
+
+
+
+
+
