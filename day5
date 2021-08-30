@@ -1,0 +1,49 @@
+<Input> 其他的attributes（属性）
+Checked  在input中加入checked属性可以让checkbox自动打上对勾
+Max 可设定最大的数值
+Min 可以设定最小的数值
+Maxlegth
+Minlength
+Placeholder 是可以给你的表格中添加提示 例如 请填写真实的姓名
+Required 让所选项变成必要填写的表格 不然无法提交
+value
+ 
+input的type和attributes总结
+checked 可以被用于radio，checkbox中
+max/min 可以被用于number/range中
+maxlength/minlength可以被用于text/password中
+placeholder/required 可以被用于all
+value 有些地方可以不用，但有些地方就一定需要例如：radio,checkbox ,这些使用者不可以打字的地方就需要设定value。不一定需要value的地方例如：text，number。
+           
+datalist 
+<label for="area">地区</label>
+        <input list="arealist" type="text" name="area" id="area">
+        <datalist id="arealist">
+           <option value="基隆市">基隆</option>
+            <option value="台北市">台北</option>
+            <option value="新北市">新北</option>
+
+        </datalist>
+
+
+textarea  
+<textarea 
+    name="suggestion"
+     id="suggestion" 
+     cols="30" 
+     rows="10"
+     placeholder="感谢提供建议">
+    </textarea>
+
+添加common的方法 <!—这是写common的例子-->
+Ctrl+/选中要变成common的文字就可以快速写common
+在css中写common的方法是/*这是写common的例子*/
+Ctrl+/选中要变成common的文字就可以快速写common
+
+
+
+
+<br>: The Line Break element 相当于回车键 起到隔断作用
+<div>: The Content Division element 
+div 可以包裹inline element使得inline element的排版看起来像block element，但是被包裹的inline element本质不会变 
+<hr>: The Thematic Break (Horizontal Rule) element 加一条线
