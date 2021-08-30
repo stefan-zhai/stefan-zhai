@@ -1,0 +1,61 @@
+Grouping selector 
+如果你想把h1-h6都做出改便
+h1{
+  color: blue;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: blue;
+}
+h4{
+  color: blue;
+}
+h5{
+  color: blue;
+}
+h6{
+  color: blue;
+}
+其实可以不用这样重复的写6次，所以就会用到grouping selector 
+h1,
+h2{
+  color: blue;
+}
+像这样h1和h2都做出了改变，当然p或者其他的标签也可以加入 
+h1,
+h2,
+p{
+  color: blue;
+}
+
+Descendant selector
+Descemdant的意思是后裔，举例来说中<h1>就是<body>的后裔.
+下面的是class selector的方法
+<h1>相關連結</h1>
+    <div link1 >
+      <a class="redtext" href="https://www.google.com">Google首頁</a>
+      <a class="redtext" href="https://www.youtube.com">YouTube</a>
+    </div>
+    <div class="link2" >
+      <a class="greentext" href="./myForm.html">熊貓問卷調查</a>
+    </div>
+
+Css
+.redtext {
+  color: red;
+}
+.greentext {
+  color: greenyellow;
+}
+
+Descendant selector可以不用每次都给标签加入class
+div.link1 a {
+  color: aquamarine;
+}
+div.link2 a {
+  color: blueviolet;
+}
+
+选取他的父母div后面在选取他的后代link1 a 就可以做出改变      div.link1 a{ color:颜色}
