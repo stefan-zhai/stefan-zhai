@@ -1,0 +1,40 @@
+3  css selectors选择器
+Universal selector
+/* Universal selector (*代表所有的标签） */
+* {
+}
+*是选择universal selector的方法
+Element selector
+例如h1 {
+  color: rgb(52, 248, 52);
+}
+如果写h1是选中所有的h1然后对其进行更改
+Id selector
+<h1 id="redtext" >近年發展</h1>
+在html的h1中给h1一个id 例如redtext
+然后在css中添加
+#redtext {
+  color: red;
+}
+#是选择使用id celector的方法
+Class selector 和id celecotr的使用方法类似 例如给一个标签加入class
+ <h2 class="bluetext " >台灣熊貓</h2>
+然后在css中打
+.bluetext {
+  color: blue;
+}
+. 是使用class的方法
+如果想在h2中在加入一个class 例如加入largesize
+<h2 class="bluetext"class2="largesize" >台灣熊貓</h2>是错误的
+正确的是
+<h2 class="bluetext largesize" >台灣熊貓</h2> 直接写在第一个class的后面即可
+并用 element,id,class selector的用法： 
+<h1 class="redtext">保護貓熊</h1>
+    <h1 class="bluetext">熊貓保育基本知識</h1>
+    <p class="bluetext" >
+
+h1.bluetext {
+  color: crimson;
+}
+在上面的html中h1有两个不同的class一个是redtext一个是bluetext 这两个相当与给这两个h1分别取的小名 在css中写 h1.bluetext{color:crimson}只针对的是html中带有class=bluetext的h1进行更改，而同样拥有一样class的p就不会被更改，class=redtext的h1同样也不会更改。
+
