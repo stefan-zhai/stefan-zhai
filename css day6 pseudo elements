@@ -1,0 +1,15 @@
+在css中pesudo element是一个keyword被加在selector的后面，它让你所选取的element非常特定的地方加入styling
+举例
+P::before{ content:">>"}  pseudo element的用法就是例如在p后面加入：：像这样两个冒号。这段代码的意思是 在每一个p的开头之前加入>>的符号.
+p::before {
+  content: ">>";
+  color: rgb(248, 11, 11);
+}
+h1::after {
+  content: "\2109";
+  color: chartreuse;
+}
+
+p::first-letter {
+  font-size: 2rem;
+}
