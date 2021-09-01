@@ -1,0 +1,11 @@
+Pseudo class 伪装类别
+Pseudo-class是一个keyword 是被加在selector后面指明说某一个标签它的状态改变时候你需要做什么事 
+例如 textarea:hover{background-color:red}
+这里的hover就是一种pseudo class 这行代码的意思是 当你的鼠标滑动到textarea的时候它里面的背景颜色会改变成red. 相当于你预设一件事情，当它触发某种条件就会发生某种结果.
+其他的pseudo class
+Input[type=”text”]:focus{color: red}
+举例
+/* Any button over which the user's pointer is hovering */
+button:hover {
+  color: blue;
+}
