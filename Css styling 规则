@@ -1,0 +1,26 @@
+Css styling 规则
+1Cascading-就是同样的specificity下最后被写出来的会覆盖之前写出来的
+h1 {
+  color: blue;
+}
+h1{
+  color: brown;
+}
+这里color blue就会被color
+ Brown所覆盖
+
+
+
+
+
+2概念：specificity 特定度
+Id-specificity (1,0,0)
+Class-specificity(0,1,0)
+Tag- specificity(0,0,1)
+
+举例 h1.redtext(0,1,1)   h1是tag redtext是class
+
+3 css inherirance 继承
+Body{ color=“red” } 所有body里面的标签例如h1，p就会变成red 因为这个red是从body继承过来的，但还有一种情况是自身就带有属性，就不会从母系标签那里继承.
+
+Inlinestyling>id>class>element selector>inheritance
