@@ -1,0 +1,3 @@
+Font siz-文字大小(units in css, relative and absolute:px,rem)
+Px-Poxels像素 16px就是网页默认的大小  px是absolute单位 客户无法自己改变网页文字的大小
+1Rem=16px 但是rem是relative单位，所以rem字体大小可以被客户所改变
